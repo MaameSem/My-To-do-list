@@ -44,3 +44,37 @@
 	<script src="js/script.js"></script>
 </body>	
 </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+    </head>
+    <body>
+
+        <p>
+            <h2>To-Do List</h2>
+            <ul id="list">
+                <li>Do groceries</li>
+                <li>Finish homework assignments</li>
+                <li>Register for gym membership</li>
+                <li>Learn to play a new song on bass guitar</li>
+                <li>Start packing for camp meeting</li>
+                <li>Clean bathroom and toilet</li>
+                <li>Read for 30 minutes</li>
+            </ul>
+        </p>
+
+        <p>
+            Add a new task:
+            <form>
+                <input type="text" id="taskbox" placeholder="New Task">
+                <input type="button" id="btnsubmit" value="Submit" onclick="addTask()";>
+
+            </form>
+        </p>
+        
